@@ -1,0 +1,20 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Dio - Desafio Calculadora de Partidas Hankeadas"
+run/main_scene="res://src/hero.tscn"
+config/features=PackedStringArray("4.2")
+config/icon="res://icon.png"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.351802, 0.586507, 0.485946, 1)
